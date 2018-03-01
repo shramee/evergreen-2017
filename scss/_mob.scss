@@ -1,0 +1,55 @@
+@media (max-width:1199px) {
+	h1 { font-size: 70px; }
+	h2 { font-size: 38px; }
+}
+
+@media (max-width:988px) {
+	h1 { font-size: 50px; }
+	h2 { font-size: 38px; }
+	h3 { font-size: 23px; }
+	h4 { font-size: 20px; }
+
+	.custom-header .col.mascot img {
+		width: 79%
+	}
+
+	#top-logo {
+		right: calc(50% - 100px);
+	}
+
+	.custom-header .col.mascot {
+		padding-top: 88px;
+		position: relative;
+	}
+}
+
+@media (min-width: 880px) {
+	.two-col {
+		flex-direction: row;
+		&.reverse, &.reverse-desktop {
+			flex-direction: row-reverse;
+		}
+		.col {
+			width: 47%;
+		}
+	}
+}
+
+@media (max-width:560px) {
+	.hide-on-mob,
+	.hide-on-tab {
+		display: none;
+	}
+	.site-footer .widget-area a {
+		margin: 0 4px 0 0;
+		&:last-of-type {
+			margin: 0;
+		}
+	}
+
+	.col h2 {
+		text-align: center;
+	}
+
+	h2 { font-size: 32px; }
+}
