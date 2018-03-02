@@ -79,21 +79,21 @@ get_header( 'home' );
 				<div class="testimonial">
 					<img class="img" src="<?php evg_url( 'assets/erin.png' ); ?>" alt="Erin Wagner, founder, howtobabysit.net">
 					<blockquote class="testimonial">
-						<cite>Erin Wagner <br> founder, howtobabysit.net</cite>
+						<cite>Erin Wagner <br> founder, <a href="//howtobabysit.net">howtobabysit.net</a></cite>
 						<p>Now that the content is done and we've got the Dropbox lined up, all I can say is: Wow. That was easy.</p>
 					</blockquote>
 				</div>
 				<div class="testimonial">
-					<img class="img" src="<?php evg_url( 'assets/bryan.png' ); ?>" alt="Dr. Bryan Laskin, ceo/founder, OperaDDS">
+					<img class="img" src="<?php evg_url( 'assets/bryan.png' ); ?>" alt="Dr. Bryan Laskin, ceo/founder, OperaDDS.com">
 					<blockquote class="testimonial">
-						<cite>Dr. Bryan Laskin <br> ceo/founder, OperaDDS</cite>
+						<cite>Dr. Bryan Laskin <br> ceo/founder, <a href="//OperaDDS.com">OperaDDS.com</a></cite>
 						<p>Evergreen is literally the most effortless marketing tool we’ve ever used. We set it up and now it works for us every day and night without even thinking about it.</p>
 					</blockquote>
 				</div>
 				<div class="testimonial">
-					<img class="img" src="<?php evg_url( 'assets/dina.jpg' ); ?>" alt="Erin Wagner, founder, howtobabysit.net">
+					<img class="img" src="<?php evg_url( 'assets/dina.jpg' ); ?>" alt="Erin Wagner, founder, SimonSaysGive.org">
 					<blockquote class="testimonial">
-						<cite>Dina Simon<br>President & Chairman, SimonSaysGive.org</cite>
+						<cite>Dina Simon<br>President & Chairman, <a href="//SimonSaysGive.org">SimonSaysGive.org</a></cite>
 						<p>Without Evergreen, we probably wouldn’t have much presence in social media, but every week our followers just keep going up and up. I couldn’t believe it the other day when we flew past 4500 followers, even though we only spend a few minutes each month managing our Facebook Page.</p>
 					</blockquote>
 				</div>
