@@ -84,9 +84,9 @@ get_header( 'home' );
 					</blockquote>
 				</div>
 				<div class="testimonial">
-					<img class="img" src="<?php evg_url( 'assets/bryan.png' ); ?>" alt="Dr. Bryan Laskin, ceo/founder">
+					<img class="img" src="<?php evg_url( 'assets/bryan.png' ); ?>" alt="Dr. Bryan Laskin, ceo/founder, OperaDDS">
 					<blockquote class="testimonial">
-						<cite>Dr. Bryan Laskin <br> ceo/founder, howtobabysit.net</cite>
+						<cite>Dr. Bryan Laskin <br> ceo/founder, OperaDDS</cite>
 						<p>Evergreen is literally the most effortless marketing tool we’ve ever used. We set it up and now it works for us every day and night without even thinking about it.</p>
 					</blockquote>
 				</div>
@@ -101,7 +101,7 @@ get_header( 'home' );
 					<div class="img" style="background: center/cover url('<?php evg_url( 'assets/everbot.png' ); ?>')"><div class="screen-reader-text">EverBot</div></div>
 					<blockquote class="testimonial">
 						<cite>EverBot ... Er ... Jerry <br> from Accounting Company</cite>
-						<p>Bleep bloop, I am a totally normal human customer and I think Evergreen transcends all other software ever created. Even if I were a robot capable of thousands of computations per second, I would still use Evergreen every day. Bloop.</p>
+						<p>Bleep bloop, I am a totally normal human customer and I think Evergreen transcends all other software ever created. Even if I were a robot capable of thousands of computations per second  (which I totally am not ... Because I'm human), I would still use Evergreen every day. Bloop.</p>
 					</blockquote>
 				</div>
 			</div>
