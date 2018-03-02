@@ -1,7 +1,20 @@
+.button {
+	padding: 1em 1.4em;
+	margin: 1em auto .5em;
+	text-transform: uppercase;
+	display: inline-block;
+	opacity: .88;
+	color: #ffffff;
+	&:hover {
+		opacity: 1;
+	}
+}
+
 .flex {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .block {
@@ -61,12 +74,20 @@
 
 .blue-bg {
 	background-color: $blue;
-	color: #fff;
 }
 
 .green-bg {
 	background-color: $green;
+}
+.blue-bg, .green-bg {
 	color: #fff;
+	a {
+		color: inherit;
+		opacity: .88;
+		&:hover {
+			opacity: 1;
+		}
+	}
 }
 
 .two-col {
@@ -85,4 +106,42 @@
 
 .mb2 {
 	margin-bottom: 50px;
+}
+
+.site-footer {
+	margin-top: 0;
+	.widget-area {
+		padding: 1em 0 0;
+		.widget:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+#main #testimonials {
+	background: #eee;
+	padding: 43px 0;
+}
+
+.testimonial {
+	flex: 1 1 43%;
+	align-self: stretch;
+	padding: 1em;
+	min-width: 300px;
+
+	cite {
+		text-align: center;
+		margin: 0 0 1em;
+	}
+	p {
+		margin: 0;
+	}
+	.img {
+		display: block;
+		border-radius: 100px;
+		width: 160px;
+		height: 160px;
+		margin: auto;
+		border: 5px solid #fff;
+	}
 }
