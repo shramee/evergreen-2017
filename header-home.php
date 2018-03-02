@@ -16,18 +16,6 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Shramee Srivastav, Shramee, WordPress Developer, PHP, Javascript, PootlePress, Pootle Press, Makesite, Make Site, Page Builder, Pagebuilder, Jamie Marsland">
-<?php
-	global $shramee_skills;
-	$shramee_skills = wp_tag_cloud( [
-						'taxonomy' => 'item_tags',
-						'smallest'                  => 25,
-						'largest'                   => 70,
-						'unit'                      => 'px',
-						'echo'                      => false,
-					] ); ?>
-<meta name="description" content="Shramee Srivastav, Skilled in <?php echo $shramee_skills ?>">
-<link rel="profile" href="http://gmpg.org/xfn/11">
 <?php
 wp_head();
 ?>
